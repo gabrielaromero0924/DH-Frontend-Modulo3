@@ -1,0 +1,138 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.navegacion ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion li {
+    margin-left: 10px;
+
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    display: inline-flex;
+}
+
+.storename{
+    padding: 10px;
+}
+.navegacion{
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+.red-text{
+    color: #FC200C;
+}
+.white-text{
+    color: white;
+}
+.green-text{
+    color: #39B24A;
+}
+
+.podio{
+    color: #FC200C;
+    padding: 30px;
+    text-align: center;
+}
+
+/* .menu{
+    color: white;
+} */
+
+.logofooter{
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    justify-content: right;
+}
+
+.container-main {
+    display: flex;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.izquierda {
+    width: 50%;
+    position: relative;
+}
+
+.derecha {
+    width: 50%;
+}
+
+.container2{
+    display: flex;
+}
+
+.navbarfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.navegacionfooter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacionfooter li {
+    margin-left: 10px;
+
+}
+
+.navegacionfooter li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+.logofooter{
+    display: inline-flex;
+}
+
+.navegacionfooter{
+    color: white;
+    text-align: left;
+    display: flex;
+}
+
+.envio{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    z-index: 1;
+}
+
+.delivery {
+    width: 100%;
+    height: auto;
+}
